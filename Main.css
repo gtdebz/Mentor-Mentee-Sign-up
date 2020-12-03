@@ -1,0 +1,782 @@
+
+
+/*orange #f15025*/
+/*black #353531*/
+/*navy blue #2d3142*/
+/*gray #ced0ce*/
+/*smoke white*/
+
+html,body{
+	height:100%;
+	
+	}
+body{
+	font-family:'Karla', sans-serif ;
+	font-size:100%;
+	line-height:1.5em;
+	
+	}
+	
+  
+/*navbar*/
+	.navbar{                /*entire navbar*/
+	border:0;
+	padding:7px 4px;
+	transition: all 1s ease-in-out;
+	background:transparent;
+	margin:0;
+	padding:0;
+	color:aliceblue;
+	}
+	.navbar li a{
+		color:#fff;
+	}
+	
+		.active a {
+		background:none!important;
+		color:#fff!important;
+		}	
+	.active a:hover {	
+	
+		color:#F90!important;
+		}
+	.navbar-brand{
+		font-size:300px;
+		font-style: Montserrat, italic;
+		
+	   
+		font-weight:bolder;
+		}
+		
+		.navbar-brand:hover{
+		font-size:20px;
+		font-style: Montserrat, italic;
+		color:#F15025!important;
+	   border-bottom:none;
+		}
+		
+	
+		
+	.navbar-toggle {
+		color:#f15025;
+		font-size:20px;
+		border-color:#f15025;
+		}
+			
+	.navbar-toggle icon{
+		color:#f15025!important;
+		font-size:20px;
+		
+		}
+	.navbar-toggle:hover,
+	.navbar-toggle:focus{
+		background-color:transparent;
+		
+		}	
+	.navbar-collapse{
+		
+		max-height:none!important;
+		background-color:#033;
+		}
+		
+	/*HEADER SECTION*/
+
+  #header{
+	 width:100%;
+    height:770px;	             /*height of header image*/
+	margin-top:-1px;             /*distance btw header image and top of page*/
+	  background-image:url("images/homeimg1.png");
+	  background-position:center center;
+	  background-repeat:no-repeat;
+	  background-size:cover;
+  }
+/*Banner Image*/
+
+#header h1{     /*Alegegroup bold header Texts*/
+	margin-top:190px;
+	color:#fff;
+	letter-spacing:3px;        /*Alegegroup text in header spacing*/
+	
+}	
+
+
+
+#header p{     /*Gainful Business Partnership Texts*/
+font-size:18px;
+font-weight:normal;
+margin-left:37%;
+color:#fff;
+
+}	
+
+#show .btn{              /*View Profile button in header under Gainful business partnership text*/
+	border-radius:40px;
+	margin:15px 10px 5px;
+	padding:12px 18px 12px;
+	border:2px solid #fff;
+	background:transparent;
+	width:17%;
+	margin-left:42%;
+	font-size:18px;
+	cursor:pointer;
+}
+
+#show .btn:hover{
+	border:2px solid #whitesmoke;
+	background:whitesmoke;
+	color:#333;
+	}
+	 
+	 
+/*alege second nav links container div*/	 
+	 
+	 
+.details{						/*alege second nav links container div*/
+	color:#fff;
+	height:125px;
+    padding-top:127px;          /*add space btw second nav links and read more button*/
+    
+	text-align:center;
+	
+	}
+	
+	.details ul{						/*alege second nav links ul*/
+	
+	margin-top:30px;                   /*space between alege second nav links and wow infinite bounce icon*/
+	text-decoration:none;
+	list-style:none;
+	text-align:center;
+	
+	}
+	
+	
+	.details li{						/*alege second nav links ul li items*/
+	
+	display:inline;
+	padding:2px 10px 2px 10px;         /*padding that contains li a items*/
+	
+	}
+	
+	.details a{
+	
+		color:#fff;
+		font-size:17px;                 /*alege second nav links li a items font-size*/
+		text-decoration:none;
+	    text-transformation:uppercase;
+
+		}
+	
+	
+	
+	.details a:hover{
+	color:#F15025;
+		
+		}
+	
+/*end alege second nav links container div*/
+	
+	/*end Header*/
+	
+	
+
+	
+
+	
+			  /*Link down the page*/
+		#banner-icon a{                         /*data wow infinite bounce animation pointing down*/
+			position:absolute;
+			bottom:2%;                      /*space between the wow infinite icon up and down the page on top of sec nav links*/
+			left:50%;
+			transform: translate(-50%, -50%);
+			font-size:20px;                   /*size of data wow infinite*/
+			color:#fff;                      /*colour of fa  fa-double-arrow-down inside data wow infinite bounce animation*/
+			border:2px solid #F30;           /*colour of cylindrical border round fa*/
+			border-radius:40px;
+			padding:5px;
+			
+			}
+		#banner-icon a:hover {
+			opacity:0.6;
+			color:black;
+			border-color:black;
+			background:#fff;              /*white background color of wow infinite icon*/
+			}
+		
+		/* font awesome underline */
+		.font-awesome-underline{
+		width: 159px;
+		border:3px solid #f15025;
+		margin:20px auto;
+		
+			}
+
+
+	
+	/* Start Contact form*/
+	#contact{
+		
+		margin-top:140px;
+		
+		/*background-color:#203142!important;*/
+		background-color:#033!important;
+		/*background-image:url(images/lo.jpg);
+		background-size:cover;*/
+		color:#000!important;
+		}
+		
+		#contact .container{
+			/*background-color:#000F00!important;*/
+			/*background-image:url(images/lo.jpg);*/
+			background-image:none;
+			background-size:cover;
+			
+		}
+	
+	
+		#contact .font-awesome-underline{
+		width: 182px;
+		border:3px solid #f15025;
+		margin: 0 auto 20px auto;
+		
+			}	
+			
+		#contact .font-awesome-underline:after{
+		content:"\f133";
+		font-family:"FontAwesome";	
+		font-size:18px;
+		color:#f15025;
+		position: relative;
+		top: -8px;
+		background:#122;
+		padding: 0 10px;
+			
+			}	
+		
+			#contact .form-control{
+			color:#FFF;
+			background-color:transparent;
+			border-color:#066;
+			}
+		
+		#contact a{
+			color:#fff;
+			
+		}
+		
+		
+		#contact button{
+			color:#FFF!important;
+			background-color:#066;
+			border-color:#066;
+			margin-bottom:40px;
+			}
+		
+		#contact button:hover {
+			background-color:#033;
+			color:#ccc;
+			border:none;
+			}
+			
+			#contact .col-md-12 {
+				margin-top:30px;
+				}
+				
+			
+			
+			
+			#contact h1{					/*contact us header*/
+			margin-top: 70px;
+			color:#fff;
+			
+			}	
+						
+			#contact p{                /*text under contact us*/
+			
+			color:#fff!important;
+			}	
+			
+			.contact-details h4{      /*text at bottom of page*/
+				color:#FFF;
+				
+				}
+			
+			.contact-details .i{		/*font awesome at bottom of page */
+				color:#fff;
+				
+				}
+			
+			
+			
+			
+			
+			
+			#contact form{
+				margin-top: 20px;
+				}	
+			
+			#contact .iframe{
+			margin-top: 20px;
+			}	
+			
+			#contact .btn-link{
+			padding: 4px;
+			border-radius:6px 6px 6px 6px;
+			border-color:2px solid #f15025;
+			width: 100px;
+			font-size:20px;	
+			text-decoration:none;
+			margin-top: 20px;
+				}
+			
+				
+		/* end Contact form*/
+		
+		
+		
+		
+		
+		
+		
+		
+		   /* Old Back to top new css */
+	#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 15px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#066; /* Set a background color */
+    color: whitesmoke; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 3px 3px 5px 3px; /* Some padding */
+    border-radius: 3px; /* Rounded corners */
+    font-size: 20px; /* Increase font size */
+	width:40px;
+	height:40px;
+	
+}
+
+ #myBtn:hover {
+    background-color:#099; /* Add a dark-grey background on hover */
+	color:white;
+	opacity:0.4;
+	-webkit-transform: scale(1.3)
+}
+/*end of old back to top*/
+
+
+/* Chat box link section*/
+
+#Chating1{                     /*chat box surrounding chat link */
+	margin:auto;
+	margin-bottom:10px
+	float:auto;
+	position:relative;
+	display:block;
+	width:13%;
+	padding:9px;
+	background:#033;
+	color:#000!important;
+	border:1px solid#033;
+	font-size:16px;
+	border-radius: 6px;
+	}
+#Chating1 a{                    /* chat box link text */
+	color:#FFF;
+	text-decoration:none;
+	
+	}
+
+			
+			
+			
+			
+			/*footer section*/
+			
+			
+		#footer{
+		padding:40px 0;
+		/*background-color:#203142!important;*/
+		 background-color:#122!important;
+		color:whitesmoke;
+		}
+	
+	
+	
+	 		
+		#footer h2{                      /*On Social Media text*/
+			color:#fff!important;
+			}
+			
+	    #footer .font-awesome-underline{
+		text-align:center;
+	width:210px;
+	border:3px solid #066;
+	margin-top:-0.5%;
+			}	
+		
+		
+		
+		
+	/*#footer .h2 .font-awesome-underline{	
+	text-align:center;
+	width:150px;
+	border:3px solid #066;
+	margin-top:-0.5%;
+	}*/
+		
+		
+			
+		#footer .footer-icons {
+		padding:15px;	
+			}	
+			
+		
+		#footer .footer-icons a {
+			color:#F15025!important;
+			font-size:20px;
+		    margin:0 15px;
+			}
+				
+		#footer .footer-icons a:hover{
+			color:#ccf!important;
+			}
+			
+		.copyright {
+			 background-color:#122!important;
+			 color:#fff;
+			}	
+			
+		footer .copyright .h4{
+		padding:50px 0 5px 0;
+		color: #ced0ce;
+		margin-bottom:10px;
+			
+			}	
+			
+		/*end of footer section*/
+		
+		/* contact details section*/
+		
+		#footer .contact-details {
+			padding:40px 0;
+			color:#f15025;
+			
+			}
+		
+		
+		/*end of contact details section*/
+		
+	
+	/*=============START MEDIA SCREEN QUERIES FOR MOBILE DISPLAY=========*/	
+		
+		
+	@media(max-width: 768px) {
+		
+		
+		/*header h1 and p  */
+		#header{                       
+			max-width:100%;
+			display:block;
+			margin:0;
+			padding:2px 2px 2px 2px;
+			
+		}	
+		#header h1{
+			margin-top:55px;
+			font-size:18px;
+		}	
+		
+		#header p{
+			font-size:14px;
+		}	
+		
+				
+		/*#show .btn{       /*header buttons
+			border-radius:3px;
+			margin:1px 0 1px;
+			padding:7px 7px 7px;
+			font-size:12px;
+		}*/
+        
+		#show .btn{              /*View Profile button in header under Gainful business partnership text*/
+	border-radius:40px;
+	margin:15px 5px 15px;
+	padding:4px 4px 5px;
+	border:2px solid #fff;
+	background:transparent;
+	width:40%;
+	margin-left:-7%;
+	font-size:12px;
+	cursor:pointer;
+	text-align:center;
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		#header #banner-icon{
+			display:block;
+			font-size:3px;
+			margin-top:-9%;
+			position:center center;
+		}
+		
+		
+			
+		.details ul li a{             /*header links*/
+			display:inline-block;
+			font-size:13px;
+			padding:1px;
+			margin-left:0;
+			margin-right:14%;
+			
+		}
+		
+		
+		
+		
+		
+
+	  /*jumbo call us pop-up*/
+	   .jumbo a{
+		max-width:100%;
+		border:2px solid whitesmoke;
+		display: block;
+		padding:30px 60px;
+		margin:2px 0 2px 0;
+		text-decoration:none;
+		text-transform:uppercase;
+		font-size:14px;
+		
+		}	
+	 
+		 #Chating1{                     /*chat box surrounding chat link */
+		margin:auto;
+		margin-bottom:10px
+		float:auto;
+		position:relative;
+		display:block;
+		width:100%;
+		padding:20px;
+		background:#f15025;
+		font-size:16px;
+		
+		}
+		
+	}  /*end media max-width:768px*/
+	
+			
+    @media(max-width:1200px){
+		
+	 .crl1, .crl2{
+		max-width:100%;
+		display:block;
+		margin:5px 5px 5px;
+		}
+		
+	 .crl3{
+		max-width:100%;
+		display:block;
+		margin:5px 5px 5px;
+			
+			}
+
+	
+	 .navbar-nav li{
+		font-size: 15px;
+		}
+		
+    }  /*end media max-width:1200px*/
+	
+      
+	  
+	  
+	 @media(max-width:992px){
+	
+	
+	.navbar-doublerow .navbar-down ul>li>a{				/*unordered list*/
+	font-size: 16px;
+	font-weight:light;
+	color: #6FF;                 /*color of navbar link menu after scrolling down the site*/
+	transition: border-bottom .2s ease-in , transform .2s ease-in-out;
+	background-color:transparent;
+	}
+	.navbar-doublerow .navbar-down ul>li>a:hover{
+		/*border-bottom: 4px solid #3FF;*/
+		border-bottom: 1px solid #F63;                  /*hover by the left side of nav menu ul*/
+		/*color:#3FF;*/
+		color:#000084;
+		background-color:#004040;
+		
+		
+	}
+	.navbar-doublerow .navbar-down .dropdown{
+		padding: 5px;
+		color: #fff!important;
+		opacity: 0.7;
+	}
+	.navbar-doublerow .navbar-down .dropdown ul>li>a,
+	.navbar-doublerow .navbar-down .dropdown ul>li>a:hover{
+	  color: #FFF;
+	  border-bottom: none;
+	  background-color:#033!important;
+	  /*background-color:#033;*/                      /*hover over nav menu ul*/
+	}
+	.navbar-toggle{
+		/*margin: 20px 0px 10px 30px;*/
+		border-color:#6c3;
+		color:#6c3;
+		display:block;
+		z-index:3;
+		position:relative;
+		}
+	.navbar .navbar collapse{       /*navbar toggle collapse*/
+		display:inline-block;
+		background-color:#930;
+		
+		}	
+		
+	.navbar-toggle:hover .navbar-toggler:focus{
+		background-color: #000;
+		border-color:#ff4fa1;
+		}
+		.navbar-light{
+		background-color:#fff;	
+			}
+		.navbar-nav li a{
+		text-align:center;
+		background-color:aliceblue;	
+			}
+		.navbar-nav li a:hover{
+		background-color: #ff4fa1;
+			}
+			
+			
+		.services_grid{
+		padding:10px 0px;	
+			}
+		
+	.services p{
+		padding:10px 50px 0px;
+		
+		}
+	} /*end media max-width 992px*/
+	
+	
+	
+	
+	
+	
+	
+	@media(max-width:768px){
+		
+		#header p{                      /*gainful business partnership*/
+			text-align:center;
+			margin:2px 2px 0;
+			
+		}
+		
+		
+		#tell{                        /*call us section*/
+			display:block;
+			overflow:hidden;
+			padding:2px 0 2px 0;
+			
+		}
+		
+		.jumbo h3{
+		padding:1px 1px 0px;
+			}
+		.jumbo a{
+		padding:2px 3px 2px 3px;
+		
+		display:block;
+		margin-left:-113%;
+		
+		font-size:12px;
+		text-align:left;
+		}	
+			
+		 /*end call us*/
+		  
+		  
+			/*promise*/
+		#promise h1,h2,h4{
+		  font-size:20px;
+		  }
+		  
+		  /*end promise*/
+		  
+		  /*services*/
+		.services p{
+			padding:10px 10px 0px;
+			
+			}
+		.services_gridi{
+			margin:auto;	
+				}
+		.services_grid_right{
+			border-right:2px solid #ff4fa1;	
+			text-align:center;
+				}	
+				
+		/*end services*/	
+	
+		/*contact*/		
+		.contact p{
+				font-size:9px;
+				padding:10px 10px 0px;
+				}
+			
+		}	
+		
+		/*end @media max-width 768px*/
+
+
+		
+		
+		
+		
+		@media(min-width:768px){
+		
+		
+			
+			}
+		
+		
+		
+		
+		
+		@media(max-width:1200px){
+	
+	
+	
+	
+		}
+	
+		@media(max-width:992px){
+	
+		 /*start chatting*/
+		#Chating h3{
+			
+			padding-top:60px;
+		}
+		
+		#Chating .a{
+			font-size:28px;
+			padding-bottom:100px;
+		}
+		/*end charting*/}
